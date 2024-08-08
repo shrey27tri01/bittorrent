@@ -6,12 +6,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/veggiedefender/torrent-client/bitfield"
-	"github.com/veggiedefender/torrent-client/peers"
+	"github.com/shrey27tri01/bittorrent/bitfield"
+	"github.com/shrey27tri01/bittorrent/peers"
 
-	"github.com/veggiedefender/torrent-client/message"
+	"github.com/shrey27tri01/bittorrent/message"
 
-	"github.com/veggiedefender/torrent-client/handshake"
+	"github.com/shrey27tri01/bittorrent/handshake"
 )
 
 // A Client is a TCP connection with a peer
